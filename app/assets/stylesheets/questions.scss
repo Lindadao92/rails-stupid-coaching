@@ -2,26 +2,32 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.button {
-  background-color:rgb(99, 99, 180);
-  color: white;
-  padding: 10px 14px;
-  border-radius: 4px;
+ body {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  padding: 0 24px;
 }
 
-.input {
-  padding: 10px;
-}
-
-.answer{
-  background-color: rgb(223, 223, 166);
-  padding: 10px;
+h1 {
   font-weight: semi-bold;
+
 }
 
- a {
-   color: rgb(116, 116, 170);
-   &:hover {
-     color: rgb(179, 16, 16);
-   }
- }
+blockquote {
+  border-left: 6px solid #ddd;
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+
+  &.coach {
+    background-color: lightyellow;
+    p { font-weight: 500; }
+  }
+}
+
+cite:before {
+  content: "—"
+}
+
+a:hover {
+  color: blue;
+}
